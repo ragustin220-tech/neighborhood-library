@@ -52,8 +52,8 @@ public class Book {
         this.ID = ID;
         this.ISBN = ISBN;
         this.title = title;
-        this.isCheckedOut = isCheckedOut;
-        this.checkedOutTo = checkedOutTo;
+        this.isCheckedOut = false;
+        this.checkedOutTo = "";
     }
 
 
